@@ -1,0 +1,31 @@
+{
+  "name": "mellowui-utilities",
+  "version": "1.0.0",
+  "description": "A lightweight, high-performance, and Responsive Utility-First CSS Framework Engine built for fast component composition. It bridges the structural power of Bootstrap 5.3+ grid architecture with the atomic agility of Tailwind CSS, enhanced with soft premium Mellow Shadows.",
+  "main": "dist/css/mellowui-utilities.min.css",
+  "style": "dist/css/mellowui-utilities.min.css",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "css",
+    "framework",
+    "utility-first",
+    "bootstrap",
+    "tailwind",
+    "mellow-shadow",
+    "mellowui"
+  ],
+  "author": "Shayan-0609",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shayan-0609/MellowUI-Utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shayan-0609/MellowUI-Utilities/issues"
+  },
+  "homepage": "https://github.com/Shayan-0609/MellowUI-Utilities#readme"
+}
