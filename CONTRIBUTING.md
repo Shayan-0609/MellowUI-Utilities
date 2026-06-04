@@ -9,16 +9,21 @@ Please take a moment to review this document before making any contributions to 
 ## 🚀 How Can I Contribute?
 
 ### 1. Reporting Bugs
+
 If you find a bug or something isn't rendering properly across browsers/devices:
+
 - Check the Issues Tab (https://github.com/Shayan-0609/MellowUI-Utilities/issues) to make sure it hasn't already been reported.
 - If it's a new bug, open a new issue. Clearly describe the problem, provide steps to reproduce it, and mention the browser/device you are using.
 
 ### 2. Suggesting Features & New Utilities
+
 Want a new spacing utility, a different transition, or another responsive helper?
+
 - Open an issue with the tag "enhancement".
 - Describe why this utility is needed and provide an example of how the HTML class name should look.
 
 ### 3. Submitting Pull Requests (PR)
+
 Ready to write some CSS? Follow these steps:
 
 1. Fork the Repository: Click the "Fork" button at the top right of this page.
@@ -37,13 +42,16 @@ Ready to write some CSS? Follow these steps:
 To keep the framework lightweight, high-performance, and organized, please adhere to the following rules when editing the codebase:
 
 ### 1. File Modification Order
+
 - Do NOT edit the minified file directly. All development changes must be made inside: dist/css/mellowui-utilities.css
 - Once you add or modify a class, you must re-minify the file and update: dist/css/mellowui-utilities.min.css
 - Use a standard CSS minifier tool (like Toptal CSS Minifier) ensuring that no advanced layout systems or calc blocks are broken.
 
 ### 2. Project Architecture
+
 Ensure your changes reflect across the structured directory:
 
+```text
 MellowUI-Utilities/
 ├── LICENSE
 ├── README.md
@@ -53,8 +61,10 @@ MellowUI-Utilities/
 │       └── mellowui-utilities.min.css <-- Update minified version here
 └── examples/
     └── demo.html                      <-- Update demo if needed
+```
 
 ### 3. Coding Standards
+
 - Atomic & Utility-First: Do not create specific component styles (like .custom-navbar). Instead, create atomic utilities (like .d-flex, .gap-2) that allow developers to compose layouts dynamically.
 - Naming Convention: Use clear, lowercase, dash-separated names consistent with Bootstrap/Tailwind practices (like .shadow-hover-md, .mellow-shadow).
 - Responsive Classes: If adding responsive variations, ensure they use standard breakpoints (-sm-, -md-, -lg-, -xl-, -xxl-) and are safely wrapped inside the appropriate @media queries at the bottom of the stylesheet.
