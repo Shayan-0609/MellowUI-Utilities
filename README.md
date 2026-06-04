@@ -1,5 +1,11 @@
 # MellowUI-Utilities v1.1.0
 
+[![npm version](https://img.shields.io/npm/v/mellowui-utilities.svg?style=flat&color=007bec)](https://www.npmjs.com/package/mellowui-utilities)
+[![npm downloads](https://img.shields.io/npm/dw/mellowui-utilities.svg?style=flat&color=28a745)](https://www.npmjs.com/package/mellowui-utilities)
+[![bundle size](https://img.shields.io/bundlephobia/min/mellowui-utilities?style=flat&color=6f42c1)](https://bundlephobia.com/package/mellowui-utilities)
+[![GitHub license](https://img.shields.io/github/license/Shayan-0609/MellowUI-Utilities?style=flat&color=orange)](https://github.com/Shayan-0609/MellowUI-Utilities/blob/main/LICENSE)
+
+
 A lightweight, high-performance, and Responsive Utility-First CSS Framework Engine built for fast component composition. It bridges the structural power of Bootstrap 5.3+ grid architecture with the atomic agility of Tailwind CSS, enhanced with soft premium Mellow Shadows.
 
 ## ✨ Features
@@ -49,17 +55,13 @@ import 'mellowui-utilities';
 ````
 (If you want to import the unminified version, you can use `import 'mellowui-utilities/css';`)
 
-### 4. Include in Plain HTML
+### 4. Include via CDN (Recommended for Plain HTML)
 
-​If you are using npm, link the production stylesheet from node_modules inside your <head> tag:
+If you are using plain HTML without npm, you can link the production-ready minified stylesheet directly from the jsDelivr CDN inside your `<head>` tag:
 
-````html
-<link rel="stylesheet" href="./node_modules/mellowui-utilities/dist/css/mellowui-utilities.min.css">
-````
-Or if you installed it manually:
-````html
-<link rel="stylesheet" href="path/to/dist/css/mellowui-utilities.min.css">
-````
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.1.0/dist/css/mellowui-utilities.min.css">
+```
 ---
 
 ## 📄 License
