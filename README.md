@@ -1,4 +1,4 @@
-# MellowUI-Utilities v1.1.1
+# MellowUI-Utilities v1.2.0
 
 [![npm version](https://img.shields.io/npm/v/mellowui-utilities.svg?style=flat&color=007bec)](https://www.npmjs.com/package/mellowui-utilities)
 [![npm downloads](https://img.shields.io/npm/dw/mellowui-utilities.svg?style=flat&color=28a745)](https://www.npmjs.com/package/mellowui-utilities)
@@ -10,12 +10,13 @@ A lightweight, high-performance, and Responsive Utility-First CSS Framework Engi
 
 ## ✨ Features
 
-- **Atomic Philosophy:** Pure utility-first utility classes (`d-flex, gap-*`, `border-*`, `rounded-*`) without bloated pre-made UI components.
+- **Atomic Philosophy:** Pure utility-first utility classes (`d-flex`, `gap-*`, `border-*`, `rounded-*`) without bloated pre-made UI components.
 - **Bootstrap 5.3+ Grid Layout:** Reliable, pixel-perfect responsive layout system (`row`, `col-1` to `col-12`, `col-md-6`, `g-*`).
-- **Mellow Visual Identity:** Premium custom smooth shadows (`mellow-shadow`, `mellow-shadow-lg`) and custom `active/hover` state color tokens.
+- **Design Tokens & Color Palette (New ✨):** Full 11-color palette with 100–900 shading scales exposed entirely as flexible CSS variables (`--mu-*`) for ultimate user control.
+- **Semantic Body & BG Utilities (New ✨):** Contextual modern classes for themes, including `text-body`, `text-body-secondary`, `bg-body`, `bg-body-secondary`, `bg-transparent`, and `bg-gradient`.
 - **Advanced Core Layouts:** Includes layout engines like Vertical/Horizontal Stacks (`vstack`, `hstack`), Aspect Ratios (`ratio-*`), and Vertical Rules (`vr`).
-- **Accessibility (A11y) First:** Built-in support for screen-readers and SEO via `.visually-hidden` and advanced keyboard navigation support.
-- **Hover & Interaction Ready:** Out-of-the-box support for interactive transitions and hover utilities (`shadow-hover-*`, `transition-all`).
+- **Accessibility (A11y) First:** Built-in support for screen-readers and SEO via `.visually-hidden` with standard keyboard focus ring support.
+- **Advanced Transitions & Hover:** Enhanced smart interaction utilities (`.transition-colors`, `.transition-border`, `.transition-size`) for butter-smooth hover and focus effects.
 
 ---
 
@@ -62,14 +63,14 @@ If you are using plain HTML without npm, you can link the production-ready minif
 #### Option A: jsDelivr
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.1.1/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.2.0/dist/css/mellowui-utilities.min.css">
 
 ```
 
 #### Option B: unpkg (Alternate CDN)
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/mellowui-utilities@1.1.1/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://unpkg.com/mellowui-utilities@1.2.0/dist/css/mellowui-utilities.min.css">
 
 ```
 
