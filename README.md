@@ -1,4 +1,4 @@
-# MellowUI-Utilities v1.2.0
+# MellowUI-Utilities v1.2.2
 
 [![npm version](https://img.shields.io/npm/v/mellowui-utilities.svg?style=flat&color=007bec)](https://www.npmjs.com/package/mellowui-utilities)
 [![npm downloads](https://img.shields.io/npm/dw/mellowui-utilities.svg?style=flat&color=28a745)](https://www.npmjs.com/package/mellowui-utilities)
@@ -63,14 +63,14 @@ If you are using plain HTML without npm, you can link the production-ready minif
 #### Option A: jsDelivr
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.2.0/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.2.2/dist/css/mellowui-utilities.min.css">
 
 ```
 
 #### Option B: unpkg (Alternate CDN)
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/mellowui-utilities@1.2.0/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://unpkg.com/mellowui-utilities@1.2.2/dist/css/mellowui-utilities.min.css">
 
 ```
 
