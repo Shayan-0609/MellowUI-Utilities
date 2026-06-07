@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*!
- * MellowUI-Utilities v1.1.1
+ * MellowUI-Utilities v1.2.0
  * A lightweight, high-performance, and responsive utility-first CSS framework engine.
  * Inspired by the Bootstrap framework architecture.
  *
@@ -29,6 +29,96 @@
   --mu-cyan: #22b8cf;
   --mu-gray: #a8adb3;
   --mu-gray-dark: #4a4f55;
+  --mu-blue-100: #e7f1ff;
+  --mu-blue-200: #d6e8ff;
+  --mu-blue-300: #9ecbff;
+  --mu-blue-400: #4dabf7;
+  --mu-blue-500: #339af0;
+  --mu-blue-600: #228be6;
+  --mu-blue-700: #1c7ed6;
+  --mu-blue-800: #1864ab;
+  --mu-blue-900: #0b3c5d;
+  --mu-indigo-100: #edf2ff;
+  --mu-indigo-200: #dbe4ff;
+  --mu-indigo-300: #b4c6ff;
+  --mu-indigo-400: #748ffc;
+  --mu-indigo-500: #5c7cfa;
+  --mu-indigo-600: #4c6ef5;
+  --mu-indigo-700: #4263eb;
+  --mu-indigo-800: #364fc7;
+  --mu-indigo-900: #2b3a8a;
+  --mu-purple-100: #f3f0ff;
+  --mu-purple-200: #e5dbff;
+  --mu-purple-300: #cdb4ff;
+  --mu-purple-400: #9775fa;
+  --mu-purple-500: #845ef7;
+  --mu-purple-600: #7950f2;
+  --mu-purple-700: #7048e8;
+  --mu-purple-800: #5f3dc4;
+  --mu-purple-900: #40297a;
+  --mu-pink-100: #fff0f6;
+  --mu-pink-200: #ffd6e7;
+  --mu-pink-300: #faa2c1;
+  --mu-pink-400: #f06595;
+  --mu-pink-500: #e64980;
+  --mu-pink-600: #d6336c;
+  --mu-pink-700: #c2255c;
+  --mu-pink-800: #a61e4d;
+  --mu-pink-900: #7a1436;
+  --mu-red-100: #ffe7d1;
+  --mu-red-200: #ffd6c9;
+  --mu-red-300: #ffc1b3;
+  --mu-red-400: #ffa08f;
+  --mu-red-500: #ff7a5f;
+  --mu-red-600: #e85f45;
+  --mu-red-700: #c94833;
+  --mu-red-800: #9f3727;
+  --mu-red-900: #7a271d;
+  --mu-orange-100: #fff4e6;
+  --mu-orange-200: #ffe8cc;
+  --mu-orange-300: #ffd8a8;
+  --mu-orange-400: #ffa94d;
+  --mu-orange-500: #ff922b;
+  --mu-orange-600: #fd7e14;
+  --mu-orange-700: #f76707;
+  --mu-orange-800: #e8590c;
+  --mu-orange-900: #a64100;
+  --mu-yellow-100: #feffd6;
+  --mu-yellow-200: #fff8b8;
+  --mu-yellow-300: #fff3a0;
+  --mu-yellow-400: #ffe066;
+  --mu-yellow-500: #ffd43b;
+  --mu-yellow-600: #fcc419;
+  --mu-yellow-700: #f59f00;
+  --mu-yellow-800: #e67700;
+  --mu-yellow-900: #a85d00;
+  --mu-green-100: #e0ffcc;
+  --mu-green-200: #caf2c2;
+  --mu-green-300: #a9e6a1;
+  --mu-green-400: #69db7c;
+  --mu-green-500: #51cf66;
+  --mu-green-600: #40c057;
+  --mu-green-700: #37b24d;
+  --mu-green-800: #2f9e44;
+  --mu-green-900: #1b5e20;
+  --mu-teal-100: #e6fcf5;
+  --mu-teal-200: #c3fae8;
+  --mu-teal-300: #96f2d7;
+  --mu-teal-400: #38d9a9;
+  --mu-teal-500: #20c997;
+  --mu-teal-600: #12b886;
+  --mu-teal-700: #0ca678;
+  --mu-teal-800: #099268;
+  --mu-teal-900: #065f46;
+  --mu-cyan-100: #e3fafc;
+  --mu-cyan-200: #c5f6fa;
+  --mu-cyan-300: #99e9f2;
+  --mu-cyan-400: #3bc9db;
+  --mu-cyan-500: #22b8cf;
+  --mu-cyan-600: #15aabf;
+  --mu-cyan-700: #1098ad;
+  --mu-cyan-800: #0c8599;
+  --mu-cyan-900: #065f73;
   --mu-gray-100: #f6f7f8;
   --mu-gray-200: #eef0f2;
   --mu-gray-300: #e2e5e8;
@@ -92,10 +182,17 @@
   --mu-link-hover-color-rgb: 28, 126, 214;
   --mu-link-hover-color: #1c7ed6;
   --mu-link-text-decoration: underline;
+  --mu-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+  --mu-emphasis-color: #000;
+  --mu-emphasis-color-rgb: 0, 0, 0;
   --mu-secondary-color: rgba(31, 35, 40, 0.75);
   --mu-secondary-color-rgb: 31, 35, 40;
-  --mu-secondary-bg: rgba(236, 239, 242, 0.75);
-  --mu-secondary-bg-rgb: 236, 239, 242;
+  --mu-secondary-bg: #eef0f2;
+  --mu-secondary-bg-rgb: 238, 240, 242;
+  --mu-tertiary-color: rgba(31, 35, 40, 0.5);
+  --mu-tertiary-color-rgb: 31, 35, 40;
+  --mu-tertiary-bg: #f6f7f8;
+  --mu-tertiary-bg-rgb: 246, 247, 248;
   /* Font Sizes (Headings & P) */
   --mu-fs-1: clamp(1.375rem, 1.375rem + 1.5vw, 2.5rem);
   --mu-fs-2: clamp(1.325rem, 1.325rem + 0.9vw, 2rem);
@@ -138,6 +235,20 @@
   --mu-mellow-shadow-lg: 0 0.5rem 1rem rgba(0, 0, 0, 0.16);
   --mu-mellow-shadow-soft: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08), 0 0.0625rem 0.125rem rgba(255, 255, 255, 0.4);
   --mu-box-shadow-inset: inset 0 1px 2px rgba(31, 35, 40, 0.12);
+  --mu-duration-150: 150ms;
+  --mu-duration-300: 300ms;
+  --mu-duration-600: 600ms;
+  --mu-duration-1000: 1000ms;
+  --mu-delay-75: 75ms;
+  --mu-delay-100: 100ms;
+  --mu-delay-150: 150ms;
+  --mu-delay-300: 300ms;
+  --mu-delay-500: 500ms;
+  --mu-ease: ease;
+  --mu-ease-linear: linear;
+  --mu-ease-in: ease-in;
+  --mu-ease-out: ease-out;
+  --mu-ease-in-out: ease-in-out;
 }
 
 html {
@@ -154,7 +265,6 @@ html {
 
 body {
   margin: 0;
-  min-height: 100dvh;
   font-family: var(--mu-body-font-family);
   font-size: var(--mu-body-font-size);
   font-weight: var(--mu-body-font-weight);
@@ -557,7 +667,8 @@ progress {
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
-.blockquote > :last-child {
+
+.blockquote> :last-child {
   margin-bottom: 0;
 }
 
@@ -567,6 +678,7 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
+
 .blockquote-footer::before {
   content: "— ";
 }
@@ -2574,6 +2686,22 @@ progress {
   color: inherit !important;
 }
 
+.text-body {
+  color: var(--mu-body-color);
+}
+
+.text-body-secondary {
+  color: var(--mu-secondary-color);
+}
+
+.text-body-emphasis {
+  color: var(--mu-emphasis-color);
+}
+
+.text-body-tertiary {
+  color: var(--mu-tertiary-color);
+}
+
 .text-opacity-10 {
   --mu-text-opacity: 0.1;
 }
@@ -2691,6 +2819,26 @@ progress {
 
 .bg-body {
   background-color: rgba(var(--mu-body-bg-rgb), var(--mu-bg-opacity, 1));
+}
+
+.bg-body-secondary {
+  background-color: var(--mu-secondary-bg);
+}
+
+.bg-body-tertiary {
+  background-color: var(--mu-tertiary-bg);
+}
+
+.bg-body-emphasis {
+  background-color: var(--mu-emphasis-color);
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.bg-gradient {
+  background-image: var(--mu-gradient);
 }
 
 .bg-opacity-10 {
@@ -4246,22 +4394,25 @@ progress {
 }
 
 /* Interactions (MellowUI) */
+.transition,
+[class*="transition-"] {
+  transition-duration: var(--mu-duration, var(--mu-duration-200, 200ms));
+  transition-timing-function: var(--mu-ease, var(--mu-ease-in-out, ease-in-out));
+  transition-delay: var(--mu-delay, 0s);
+}
+
 .transition {
   transition-property: all;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
 }
 
 .transition-fast {
   transition-property: all;
-  transition-duration: 150ms;
-  transition-timing-function: ease-in-out;
+  --mu-duration: var(--mu-duration-150, 150ms);
 }
 
 .transition-slow {
   transition-property: all;
-  transition-duration: 600ms;
-  transition-timing-function: ease-in-out;
+  --mu-duration: var(--mu-duration-600, 600ms);
 }
 
 .transition-all {
@@ -4276,6 +4427,14 @@ progress {
   transition-property: color;
 }
 
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+}
+
+.transition-border {
+  transition-property: border-color, border-width, border-radius;
+}
+
 .transition-shadow {
   transition-property: box-shadow;
 }
@@ -4288,48 +4447,80 @@ progress {
   transition-property: opacity;
 }
 
+.transition-size {
+  transition-property: width, height, max-width, max-height;
+}
+
+.transition-svg {
+  transition-property: fill, stroke;
+}
+
+.transition-outline {
+  transition-property: outline-color, outline-width;
+}
+
 .duration-150 {
-  transition-duration: 150ms;
+  --mu-duration: var(--mu-duration-150, 150ms);
 }
 
 .duration-200 {
-  transition-duration: 200ms;
+  --mu-duration: var(--mu-duration-200, 200ms);
 }
 
 .duration-300 {
-  transition-duration: 300ms;
+  --mu-duration: var(--mu-duration-300, 300ms);
 }
 
 .duration-600 {
-  transition-duration: 600ms;
+  --mu-duration: var(--mu-duration-600, 600ms);
 }
 
 .duration-1000 {
-  transition-duration: 1000ms;
+  --mu-duration: var(--mu-duration-1000, 1000ms);
 }
 
 .ease-linear {
-  transition-timing-function: linear;
+  --mu-ease: var(--mu-ease-linear, linear);
 }
 
 .ease {
-  transition-timing-function: ease;
+  --mu-ease: var(--mu-ease, ease);
 }
 
 .ease-in {
-  transition-timing-function: ease-in;
+  --mu-ease: var(--mu-ease-in, ease-in);
 }
 
 .ease-out {
-  transition-timing-function: ease-out;
+  --mu-ease: var(--mu-ease-out, ease-out);
 }
 
 .ease-in-out {
-  transition-timing-function: ease-in-out;
+  --mu-ease: var(--mu-ease-in-out, ease-in-out);
+}
+
+.delay-75 {
+  --mu-delay: var(--mu-delay-75, 75ms);
+}
+
+.delay-100 {
+  --mu-delay: var(--mu-delay-100, 100ms);
+}
+
+.delay-150 {
+  --mu-delay: var(--mu-delay-150, 150ms);
+}
+
+.delay-300 {
+  --mu-delay: var(--mu-delay-300, 300ms);
+}
+
+.delay-500 {
+  --mu-delay: var(--mu-delay-500, 500ms);
 }
 
 .transition-none {
-  transition: none;
+  transition: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4339,9 +4530,11 @@ progress {
   .transition-slow,
   [class*="transition-"],
   [class*="duration-"],
+  [class*="delay-"],
   [class*="ease"],
   [class*="ease-"] {
     transition: none !important;
+    animation: none !important;
   }
 }
 
