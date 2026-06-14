@@ -16,7 +16,7 @@ npm install mellowui-utilities
 #### For HTML Projects
 Simply link the CDN in your `<head>`:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.0/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
 ```
 
 ### Step 2: Use in Your HTML
@@ -28,7 +28,7 @@ Simply link the CDN in your `<head>`:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MellowUI Demo</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.0/dist/css/mellowui-utilities.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
 </head>
 <body>
   <div class="container mt-5">
