@@ -24,19 +24,24 @@ A lightweight, high-performance, and Responsive Utility-First CSS Framework Engi
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Directory Structure
 
 ```text
 MellowUI-Utilities/
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
+├── dist/
+│   └── css/
+│       ├── mellowui-utilities.css
+│       └── mellowui-utilities.min.css
+├── docs/
+│   ├── EXAMPLES.md
+│   ├── GETTING-STARTED.md
+│   └── index.md
 ├── examples/
-│    └── demo.html
-└── dist/
-      └── css/
-           ├── mellowui-utilities.css
-           └── mellowui-utilities.min.css
+│   ├── example1.html
+│   └── example2.html
+├── package.json
+└── README.md
+
 ```
 
 ---
