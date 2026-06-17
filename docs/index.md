@@ -1,6 +1,6 @@
 # MellowUI-Utilities Documentation
 
-Welcome to the official documentation for **MellowUI-Utilities v1.3.1** — a lightweight, high-performance, utility-first CSS framework engineered for rapid component composition.
+Welcome to the official documentation for **MellowUI-Utilities v1.3.2** — a lightweight, high-performance, utility-first CSS framework engineered for rapid component composition.
 
 ---
 
@@ -20,7 +20,7 @@ import 'mellowui-utilities';
 
 #### Option 2: CDN (Recommended for HTML)
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.2/dist/css/mellowui-utilities.min.css">
 ```
 
 #### Option 3: Direct Download
@@ -684,5 +684,5 @@ Load your custom theme **after** MellowUI:
 ---
 
 **Maintained by:** [Shayan-0609](https://github.com/Shayan-0609)  
-**Version:** 1.3.1  
+**Version:** 1.3.2  
 **Last Updated:** June 14, 2026
