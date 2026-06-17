@@ -1,4 +1,4 @@
-# MellowUI-Utilities v1.3.1
+# MellowUI-Utilities v1.3.2
 
 [![npm version](https://img.shields.io/npm/v/mellowui-utilities?style=flat&color=007bec)](https://www.npmjs.com/package/mellowui-utilities)
 [![npm downloads](https://img.shields.io/npm/dw/mellowui-utilities?style=flat&color=28a745)](https://www.npmjs.com/package/mellowui-utilities)
@@ -24,19 +24,24 @@ A lightweight, high-performance, and Responsive Utility-First CSS Framework Engi
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Directory Structure
 
 ```text
 MellowUI-Utilities/
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
+├── dist/
+│   └── css/
+│       ├── mellowui-utilities.css
+│       └── mellowui-utilities.min.css
+├── docs/
+│   ├── EXAMPLES.md
+│   ├── GETTING-STARTED.md
+│   └── index.md
 ├── examples/
-│    └── demo.html
-└── dist/
-      └── css/
-           ├── mellowui-utilities.css
-           └── mellowui-utilities.min.css
+│   ├── example1.html
+│   └── example2.html
+├── package.json
+└── README.md
+
 ```
 
 ---
@@ -78,14 +83,14 @@ If you are using plain HTML without npm, you can link the production-ready minif
 #### Option A: jsDelivr
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.2/dist/css/mellowui-utilities.min.css">
 
 ```
 
 #### Option B: unpkg (Alternate CDN)
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
+<link rel="stylesheet" href="https://unpkg.com/mellowui-utilities@1.3.2/dist/css/mellowui-utilities.min.css">
 
 ```
 

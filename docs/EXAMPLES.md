@@ -15,7 +15,7 @@ Practical, production-ready examples using MellowUI-Utilities.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MellowUI Landing Page</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.2/dist/css/mellowui-utilities.min.css">
 </head>
 <body>
   <!-- Navigation -->
@@ -225,7 +225,7 @@ Practical, production-ready examples using MellowUI-Utilities.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.2/dist/css/mellowui-utilities.min.css">
 </head>
 <body>
   <div class="d-flex h-100">
@@ -340,7 +340,7 @@ Practical, production-ready examples using MellowUI-Utilities.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Post</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.1/dist/css/mellowui-utilities.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mellowui-utilities@1.3.2/dist/css/mellowui-utilities.min.css">
 </head>
 <body>
   <!-- Header -->

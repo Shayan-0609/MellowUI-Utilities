@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*!
- * MellowUI-Utilities v1.3.1
+ * MellowUI-Utilities v1.3.2
  * A lightweight, high-performance, and responsive utility-first CSS framework engine.
  * Inspired by the Bootstrap framework architecture.
  *
@@ -129,6 +129,7 @@
   --mu-gray-800: #3f444a;
   --mu-gray-900: #1f2328;
   --mu-font-sans-serif: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", Roboto, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Symbol", "Segoe UI Emoji", "Noto Color Emoji";
+  --mu-font-serif: Georgia, Cambria, "Times New Roman", Times, "IFC Franklin Serif", "Noto Serif", "Apple New York", "New York", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --mu-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", "Liberation Mono", monospace;
   --mu-primary: #339af0;
   --mu-secondary: #7d838a;
@@ -1083,6 +1084,10 @@ progress {
 
 .border-black {
   border-color: var(--mu-black);
+}
+
+.border-translucent {
+  border-color: var(--mu-border-color-translucent);
 }
 
 .rounded-0 {
@@ -4469,6 +4474,10 @@ progress {
   max-width: 100%;
 }
 
+.vw-100 {
+  width: 100vw;
+}
+
 .min-vw-100 {
   min-width: 100vw;
 }
@@ -4505,12 +4514,22 @@ progress {
   max-height: 100%;
 }
 
+.vh-100 {
+  height: 100vh;
+  height: 100svh;
+  height: 100dvh;
+}
+
 .min-vh-100 {
   min-height: 100vh;
+  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 .max-vh-100 {
   max-height: 100vh;
+  max-height: 100svh;
+  max-height: 100dvh;
 }
 
 .text-start {
@@ -4629,6 +4648,14 @@ progress {
   font-family: var(--mu-font-monospace);
 }
 
+.font-sans-serif {
+  font-family: var(--mu-font-sans-serif);
+}
+
+.font-serif {
+  font-family: var(--mu-font-serif);
+}
+
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4636,11 +4663,19 @@ progress {
 }
 
 .text-wrap {
+  white-space: normal;
   word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .text-nowrap {
   white-space: nowrap;
+}
+
+.text-break {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
 
 .align-baseline {
